@@ -8,7 +8,7 @@ CREATE TABLE "public"."industry" (
 	"id" numeric NOT NULL,
 	"industry_id" character varying(10 char) NULL,
 	"name" character varying(1000 char) NULL,
-	"parent_id" character varying(1000 char) NULL,
+	"parent_id" character varying(10 char) NULL,
 	"level_type" character varying(10 char) NULL,
 	"description" character varying(1000 char) NULL,
 	CONSTRAINT "con_public_industry_constraint_1" PRIMARY KEY (id)
